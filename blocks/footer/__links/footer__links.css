@@ -1,0 +1,19 @@
+.footer__links {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: min-content min-content min-content min-content min-content;
+    grid-template-rows: 1fr;
+    column-gap: 18px;
+    list-style-type: none;
+    align-items: end;
+}
+
+@media (max-width:699px) {
+    .footer__links {
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content min-content min-content;
+        row-gap: 32px;
+    }
+}

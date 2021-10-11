@@ -1,0 +1,8 @@
+.cover {
+    max-width: 1184px;
+    max-height: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    /*order: magenta 1px solid;*/
+}

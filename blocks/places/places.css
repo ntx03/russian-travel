@@ -1,0 +1,30 @@
+.places {
+    margin-top: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 984px;
+    /*border: violet 1px solid;*/
+}
+
+@media (max-width:1024px) {
+    .places {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media (max-width:768px) {
+    .places {
+        margin-top: 88px;
+    }
+}
+
+@media (max-width:600px) {
+    .places {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,24 @@
+.cover__text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    margin-top: -126px;
+    left: 50%;
+    margin-left: -281px;
+    z-index: 1;
+}
+
+@media (max-width:600px) {
+    .cover__text {
+        margin-top: -68px;
+        margin-left: -145px;
+    }
+}
+
+.cover__text:hover+.cover__background {
+    opacity: 0.3;
+}

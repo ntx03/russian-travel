@@ -1,0 +1,25 @@
+.place__title {
+    margin: 0;
+    font-family: inter, 'Helvetica Neue', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    grid-area: place__title;
+    align-self: end;
+    /* border: steelblue 1px solid;*/
+}
+
+@media (max-width:850px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width:600px) {
+    .place__title {
+        margin-left: 16px;
+        margin-right: auto;
+    }
+}

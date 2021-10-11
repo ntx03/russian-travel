@@ -1,0 +1,10 @@
+.header__lang-link {
+    padding: 0;
+    background-size: contain;
+    /*border: springgreen 1px solid;*/
+    list-style-type: none;
+    text-decoration: none;
+    display: grid;
+    gap: 18px;
+    grid-template-columns: 1fr 1fr;
+}

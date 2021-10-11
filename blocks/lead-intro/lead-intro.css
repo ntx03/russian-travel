@@ -1,0 +1,13 @@
+.lead-intro {
+    margin: 0;
+    /*border: chartreuse 1px solid;*/
+    max-width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead-intro {
+        max-width: 928px;
+    }
+}

@@ -1,0 +1,21 @@
+.intro {
+    max-width: 690px;
+    min-height: 429px;
+    margin-top: 92px;
+}
+
+@media (max-width:979px) {
+    .intro {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 88px;
+    }
+}
+
+@media (max-width:600px) {
+    .intro {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 64px;
+    }
+}
