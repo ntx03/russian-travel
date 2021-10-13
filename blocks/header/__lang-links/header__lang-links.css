@@ -10,13 +10,7 @@
     color: #FFFFFF;
     background-size: contain;
     text-decoration: none;
-    transition-duration: .5s;
     /*border: olive 1px solid;*/
-}
-
-.header__lang-links:hover {
-    opacity: 0.5;
-    transition-duration: .5s;
 }
 
 @media (max-width:767px) {

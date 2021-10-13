@@ -8,8 +8,10 @@
     text-align: center;
     max-width: 360px;
     max-height: 66px;
-    margin-left: auto;
-    margin-right: auto;
+    grid-row: 2;
+    grid-column: 1;
+    z-index: 1;
+    justify-self: center;
 }
 
 @media (max-width:600px) {
@@ -18,6 +20,5 @@
         line-height: 16px;
         max-width: 288px;
         max-height: 48px;
-        margin-top: 16px;
     }
 }

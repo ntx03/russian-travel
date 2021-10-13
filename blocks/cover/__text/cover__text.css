@@ -1,22 +1,13 @@
 .cover__text {
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 50%;
-    margin-top: -126px;
-    left: 50%;
-    margin-left: -281px;
-    z-index: 1;
-}
-
-@media (max-width:600px) {
-    .cover__text {
-        margin-top: -68px;
-        margin-left: -145px;
-    }
+    justify-content: center;
+    z-index: 2;
+    margin: auto;
+    border: steelblue 1px solid;
+    opacity: 1;
+    width: fit-content;
 }
 
 .cover__text:hover+.cover__background {
