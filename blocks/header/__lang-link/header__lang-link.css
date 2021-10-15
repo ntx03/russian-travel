@@ -5,6 +5,9 @@
     list-style-type: none;
     text-decoration: none;
     display: grid;
+    align-items: flex-end;
+    margin-top: auto;
+    margin-bottom: 5px;
     gap: 18px;
     grid-template-columns: 1fr 1fr;
 }

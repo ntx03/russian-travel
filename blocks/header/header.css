@@ -1,20 +1,25 @@
 .header {
     max-width: 1184px;
-    max-height: 52px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: flex-end;
+    align-items: flex-end;
     padding-top: 28px;
     background-color: #2a2c2f;
     margin-bottom: 56px;
+    /*border: orange 1px solid;*/
+}
+
+@media (max-width:1280px) {
+    .header {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
 }
 
 @media (max-width:1024px) {
     .header {
-        margin-left: 48px;
-        margin-right: 48px;
         margin-bottom: 48px;
     }
 }
@@ -29,7 +34,6 @@
 @media (max-width:600px) {
     .header {
         padding-top: 16px;
-        max-height: 42px;
         margin-left: 16px;
         margin-right: 16px;
     }

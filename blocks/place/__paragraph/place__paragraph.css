@@ -9,15 +9,21 @@
     /*border: springgreen 1px solid;*/
 }
 
+.place__paragraph:nth-child(2) {
+    margin-bottom: 0;
+}
+
 @media (max-width:850px) {
     .place__paragraph {
         font-size: 16px;
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:767px) {
     .place__paragraph {
         padding-left: 16px;
-        padding-right: 16px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        text-align: left;
     }
 }

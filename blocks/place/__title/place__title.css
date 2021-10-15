@@ -7,6 +7,7 @@
     line-height: 76px;
     grid-area: place__title;
     align-self: end;
+    justify-items: end;
     /* border: steelblue 1px solid;*/
 }
 
@@ -14,12 +15,20 @@
     .place__title {
         font-size: 42px;
         line-height: 46px;
+        max-width: 330px;
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:767px) {
     .place__title {
         margin-left: 16px;
         margin-right: auto;
+    }
+}
+
+@media (max-width:630px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
     }
 }

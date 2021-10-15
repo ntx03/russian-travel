@@ -7,12 +7,9 @@
     font-weight: 900;
     text-align: center;
     max-width: 560px;
-    max-height: 152px;
-    grid-column: 1;
-    grid-row: 1;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
-    justify-self: center;
-    align-self: end;
 }
 
 @media (max-width:600px) {
@@ -20,6 +17,6 @@
         font-size: 32px;
         line-height: 35px;
         max-width: 250px;
-        max-height: 70px;
+        /*max-height: 70px;*/
     }
 }
